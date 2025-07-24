@@ -4,7 +4,6 @@ import cv2
 # Abrindo a webcam
 webcam = cv2.VideoCapture(0)
 
-
 while True:
     # Variável para ler a webcam
     ret, frame = webcam.read()
